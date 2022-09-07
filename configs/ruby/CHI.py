@@ -73,7 +73,10 @@ def create_system(options, full_system, system, dma_ports, bootmem,
     else:
         # Use the defaults from CHI_config
         from . import CHI_config as chi_defs
-
+    print("l1dcache: " + options.l1d_size)
+    print("l1icache: " + options.l1i_size)
+    print("l2cache: " + options.l2_size)
+    print("l3cache: " + options.l3_size)
     # NoC params
     params = chi_defs.NoC_Params
     # Node types

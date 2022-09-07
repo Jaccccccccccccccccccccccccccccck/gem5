@@ -95,6 +95,7 @@ def define_options(parser):
         help="Recycle latency for ruby controller input buffers")
 
     protocol = buildEnv['PROTOCOL']
+    print("========= protocol:" + protocol)
     exec("from . import %s" % protocol)
     eval("%s.define_options(parser)" % protocol)
     Network.define_options(parser)
