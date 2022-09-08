@@ -1,4 +1,4 @@
-ee# Copyright (c) 2012-2013, 2015-2016 ARM Limited
+# Copyright (c) 2012-2013, 2015-2016 ARM Limited
 # Copyright (c) 2020 Barkhausen Institut
 # All rights reserved
 #
